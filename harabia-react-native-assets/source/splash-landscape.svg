@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="2688" height="1242" viewBox="0 0 2688 1242" role="img" aria-labelledby="title description">
+  <title id="title">HArabia landscape splash screen</title>
+  <desc id="description">Landscape launch screen with HArabia icon and wordmark on an Arabian night background.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="2688" y2="1242" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0E1D28"/>
+      <stop offset=".56" stop-color="#182B3A"/>
+      <stop offset="1" stop-color="#233E50"/>
+    </linearGradient>
+    <linearGradient id="dune" x1="0" y1="0" x2="2688" y2="0">
+      <stop stop-color="#C98B2E"/>
+      <stop offset="1" stop-color="#B8573F"/>
+    </linearGradient>
+  </defs>
+  <rect width="2688" height="1242" fill="url(#background)"/>
+  <circle cx="2370" cy="170" r="260" fill="#E9BA63" fill-opacity=".09"/>
+  <image href="../brand/harabia-icon.svg" xlink:href="../brand/harabia-icon.svg" x="596" y="272" width="560" height="560"/>
+  <text x="1250" y="554" font-family="DejaVu Sans, Arial, sans-serif" font-size="176" font-weight="650" letter-spacing="-10">
+    <tspan fill="#E9BA63" font-weight="700">H</tspan><tspan fill="#FFF8ED">Arabia</tspan>
+  </text>
+  <text x="1260" y="648" fill="#F1D7A5" font-family="DejaVu Sans, Arial, sans-serif" font-size="42" font-weight="700" letter-spacing="9">BY HTOURS</text>
+  <text x="1260" y="756" fill="#FFF8ED" font-family="DejaVu Sans, Arial, sans-serif" font-size="47">Hotels • Transfers • Tours</text>
+  <path d="M0 1020C487 905 862 1000 1276 1063C1700 1128 2103 904 2688 1000V1242H0Z" fill="url(#dune)"/>
+  <path d="M0 1122C445 1049 923 1120 1368 1161C1834 1204 2250 1088 2688 1129V1242H0Z" fill="#147C72"/>
+</svg>

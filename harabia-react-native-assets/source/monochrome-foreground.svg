@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" role="img" aria-labelledby="title description">
+  <title id="title">HArabia monochrome icon</title>
+  <desc id="description">Single-color safe-zone HArabia monogram for Android themed and notification icons.</desc>
+  <g fill="#FFFFFF" stroke="#FFFFFF">
+    <rect x="286" y="276" width="72" height="382" rx="36" stroke="none"/>
+    <rect x="666" y="276" width="72" height="382" rx="36" stroke="none"/>
+    <path d="M345 534V493C410 486 449 395 512 342C575 395 614 486 679 493V534H601V493C601 445 567 402 512 368C457 402 423 445 423 493V534H345Z" stroke="none"/>
+    <circle cx="512" cy="318" r="15" stroke="none"/>
+    <path d="M238 704C336 621 442 629 526 692C608 755 700 752 800 674" fill="none" stroke-width="32" stroke-linecap="round"/>
+    <path d="M275 774C373 726 461 729 543 767C623 804 706 799 777 751" fill="none" stroke-width="14" stroke-linecap="round"/>
+  </g>
+</svg>

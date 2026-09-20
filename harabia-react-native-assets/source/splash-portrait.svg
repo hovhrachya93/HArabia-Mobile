@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1242" height="2688" viewBox="0 0 1242 2688" role="img" aria-labelledby="title description">
+  <title id="title">HArabia portrait splash screen</title>
+  <desc id="description">Portrait launch screen with HArabia icon and wordmark on an Arabian night background.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1242" y2="2688" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#233E50"/>
+      <stop offset=".58" stop-color="#182B3A"/>
+      <stop offset="1" stop-color="#0E1D28"/>
+    </linearGradient>
+    <linearGradient id="dune" x1="0" y1="0" x2="1242" y2="0">
+      <stop stop-color="#C98B2E"/>
+      <stop offset="1" stop-color="#B8573F"/>
+    </linearGradient>
+  </defs>
+  <rect width="1242" height="2688" fill="url(#background)"/>
+  <circle cx="1035" cy="285" r="270" fill="#E9BA63" fill-opacity=".08"/>
+  <circle cx="207" cy="2290" r="330" fill="#147C72" fill-opacity=".07"/>
+  <g opacity=".045" stroke="#F1D7A5" stroke-width="3">
+    <path d="M76 500H1166M76 620H1166M76 740H1166M76 860H1166"/>
+    <path d="M190 420V940M340 420V940M490 420V940M640 420V940M790 420V940M940 420V940M1090 420V940"/>
+  </g>
+  <image href="../brand/harabia-icon.svg" xlink:href="../brand/harabia-icon.svg" x="371" y="740" width="500" height="500"/>
+  <text x="621" y="1430" text-anchor="middle" font-family="DejaVu Sans, Arial, sans-serif" font-size="142" font-weight="650" letter-spacing="-8">
+    <tspan fill="#E9BA63" font-weight="700">H</tspan><tspan fill="#FFF8ED">Arabia</tspan>
+  </text>
+  <text x="621" y="1510" text-anchor="middle" fill="#F1D7A5" font-family="DejaVu Sans, Arial, sans-serif" font-size="34" font-weight="700" letter-spacing="8">BY HTOURS</text>
+  <text x="621" y="1610" text-anchor="middle" fill="#FFF8ED" font-family="DejaVu Sans, Arial, sans-serif" font-size="38">Hotels • Transfers • Tours</text>
+  <path d="M0 2394C202 2328 394 2344 585 2420C783 2498 988 2362 1242 2409V2688H0Z" fill="url(#dune)"/>
+  <path d="M0 2507C230 2437 436 2492 636 2548C843 2607 1037 2513 1242 2539V2688H0Z" fill="#147C72"/>
+</svg>

@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "HArabia",
+    "slug": "harabia",
+    "scheme": "harabia",
+    "version": "1.0.0",
+    "orientation": "default",
+    "userInterfaceStyle": "automatic",
+    "icon": "./assets/harabia/icon.png",
+    "ios": {
+      "supportsTablet": true,
+      "icon": "./assets/harabia/icon.png",
+      "bundleIdentifier": "am.htours.harabia"
+    },
+    "android": {
+      "package": "am.htours.harabia",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/harabia/adaptive-icon-foreground.png",
+        "monochromeImage": "./assets/harabia/monochrome-icon.png",
+        "backgroundColor": "#182B3A"
+      }
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#182B3A",
+          "image": "./assets/harabia/splash-icon.png",
+          "imageWidth": 220,
+          "resizeMode": "contain",
+          "dark": {
+            "backgroundColor": "#0E1D28",
+            "image": "./assets/harabia/splash-icon.png"
+          }
+        }
+      ]
+    ]
+  }
+}

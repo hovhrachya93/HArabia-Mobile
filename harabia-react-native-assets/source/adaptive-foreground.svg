@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" role="img" aria-labelledby="title description">
+  <title id="title">HArabia adaptive icon foreground</title>
+  <desc id="description">Safe-zone HArabia monogram for Android adaptive icons.</desc>
+  <defs>
+    <linearGradient id="gold" x1="330" y1="310" x2="700" y2="670" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E9BA63"/>
+      <stop offset="1" stop-color="#C98B2E"/>
+    </linearGradient>
+    <linearGradient id="dune" x1="245" y1="700" x2="790" y2="730" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E9BA63"/>
+      <stop offset=".58" stop-color="#C98B2E"/>
+      <stop offset="1" stop-color="#B8573F"/>
+    </linearGradient>
+  </defs>
+  <circle cx="512" cy="430" r="176" fill="#C98B2E" fill-opacity=".12"/>
+  <rect x="286" y="276" width="72" height="382" rx="36" fill="#FFF8ED"/>
+  <rect x="666" y="276" width="72" height="382" rx="36" fill="#FFF8ED"/>
+  <path d="M345 534V493C410 486 449 395 512 342C575 395 614 486 679 493V534H601V493C601 445 567 402 512 368C457 402 423 445 423 493V534H345Z" fill="url(#gold)"/>
+  <circle cx="512" cy="318" r="15" fill="#E9BA63"/>
+  <path d="M484 318H540M512 290V346" stroke="#E9BA63" stroke-width="7" stroke-linecap="round" opacity=".72"/>
+  <path d="M238 704C336 621 442 629 526 692C608 755 700 752 800 674" stroke="url(#dune)" stroke-width="32" stroke-linecap="round"/>
+  <path d="M275 774C373 726 461 729 543 767C623 804 706 799 777 751" stroke="#38A89C" stroke-width="14" stroke-linecap="round"/>
+</svg>

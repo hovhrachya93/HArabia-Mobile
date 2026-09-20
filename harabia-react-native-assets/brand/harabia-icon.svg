@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 280 280" fill="none" role="img" aria-labelledby="title description">
+  <title id="title">HArabia icon</title>
+  <desc id="description">H monogram shaped by an Arabian arch, sunrise, and desert dunes.</desc>
+  <defs>
+    <linearGradient id="panel" x1="36" y1="28" x2="244" y2="256" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#233E50"/>
+      <stop offset="1" stop-color="#0E1D28"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="90" y1="86" x2="190" y2="164" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E9BA63"/>
+      <stop offset="1" stop-color="#C98B2E"/>
+    </linearGradient>
+    <linearGradient id="dune" x1="48" y1="199" x2="233" y2="199" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E9BA63"/>
+      <stop offset=".56" stop-color="#C98B2E"/>
+      <stop offset="1" stop-color="#B8573F"/>
+    </linearGradient>
+    <clipPath id="panel-clip"><rect x="24" y="24" width="232" height="232" rx="48"/></clipPath>
+  </defs>
+
+  <rect x="24" y="24" width="232" height="232" rx="48" fill="url(#panel)"/>
+  <rect x="24.75" y="24.75" width="230.5" height="230.5" rx="47.25" stroke="#E9BA63" stroke-opacity=".28" stroke-width="1.5"/>
+
+  <g clip-path="url(#panel-clip)">
+    <circle cx="140" cy="109" r="46" fill="#C98B2E" fill-opacity=".13"/>
+    <circle cx="218" cy="49" r="77" fill="#F1D7A5" fill-opacity=".035"/>
+    <path d="M37 105L243 105M37 139L243 139M37 173L243 173" stroke="#F1D7A5" stroke-opacity=".035"/>
+  </g>
+
+  <!-- Ivory pillars preserve the H-family resemblance. -->
+  <rect x="68" y="66" width="25" height="128" rx="12.5" fill="#FFF8ED"/>
+  <rect x="187" y="66" width="25" height="128" rx="12.5" fill="#FFF8ED"/>
+
+  <!-- A pointed Arabian arch becomes the H crossbar. -->
+  <path d="M89 150V136C108 134 119 109 140 91C161 109 172 134 191 136V150H166V137C166 121 156 108 140 97C124 108 114 121 114 137V150H89Z" fill="url(#gold)"/>
+  <circle cx="140" cy="83" r="4.5" fill="#E9BA63"/>
+  <path d="M132 83H148M140 75V91" stroke="#E9BA63" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+
+  <!-- Two dune lines give the regional mark motion without copying HCyprus's wave. -->
+  <path d="M49 205C79 179 113 182 139 201C164 219 191 221 231 192" stroke="url(#dune)" stroke-width="10" stroke-linecap="round"/>
+  <path d="M60 222C91 207 119 207 145 219C169 230 192 228 220 211" stroke="#147C72" stroke-width="4" stroke-linecap="round" opacity=".92"/>
+</svg>

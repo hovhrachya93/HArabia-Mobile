@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <!-- Requires androidx.core:core-splashscreen. Replace AppTheme if your theme has another name. -->
+  <style name="Theme.HArabia.Splash" parent="Theme.SplashScreen">
+    <item name="windowSplashScreenBackground">@color/splash_background</item>
+    <item name="windowSplashScreenAnimatedIcon">@drawable/android12_splash_icon</item>
+    <item name="postSplashScreenTheme">@style/AppTheme</item>
+  </style>
+</resources>
