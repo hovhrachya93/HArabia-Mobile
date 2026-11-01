@@ -55,5 +55,13 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Fonts/harabia_sans_regular.ttf</string>
+		<string>Fonts/harabia_sans_medium.ttf</string>
+		<string>Fonts/harabia_sans_semibold.ttf</string>
+		<string>Fonts/harabia_sans_bold.ttf</string>
+		<string>Fonts/harabia_sans_extrabold.ttf</string>
+	</array>
 </dict>
 </plist>

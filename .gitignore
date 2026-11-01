@@ -73,3 +73,14 @@ yarn-error.log
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+# Local env files (API keys, secrets)
+.env
+.env.*
+
+# Built app packages (release builds land outside the repo)
+*.apk
+*.aab
+
+# Editor settings
+.vscode/

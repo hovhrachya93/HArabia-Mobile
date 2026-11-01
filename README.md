@@ -1,8 +1,30 @@
 # HArabia Mobile
 
-Bare React Native app (no Expo, React Native 0.87.1) for HArabia. Same setup as
-`../HCyprus-Mobile`. **This is only the starting point:** the project, the brand
-icons, the native launch screen and one screen that shows the logo.
+Bare React Native app (no Expo, React Native 0.87.1) for HArabia, built on the
+same structure and UI kit as `../HCyprus-Mobile`.
+
+- Tabs: Hotels, Tours, Packages, Blog, More (destinations, concerts, Qatar
+  events, VIP, settings, contacts). Home has the search and featured content.
+- Hotels are live from the website's API: `/api/hotels/city` (search),
+  `/api/hotels/offer` (one hotel with its rooms), `/api/hotels/checkrate`,
+  `/api/hotels/quote` (choose hotels without dates) and `/api/price-requests`.
+  Prices are converted with `/api/exchange-rates`.
+- Four languages (hy, en, ru, ar); Arabic switches the layout to right-to-left.
+  Currency: AMD, USD, RUB or EUR.
+
+## Website data
+
+Texts, translations, tours, packages, concerts, articles and destinations come
+from the website. After changing them in `../HArabia`, run
+
+```bash
+node scripts/sync-web.mjs
+```
+
+which copies them into `src/shared/` (do not edit that folder by hand). Pictures
+load from https://harabia.am. In development the app talks to the website's dev
+server on port 3001 (`npm run dev -- -p 3001` in `../HArabia`; on the Android
+emulator run `adb reverse tcp:3001 tcp:3001`).
 
 - App name: `HArabia` — JS name `HArabiaMobile`
 - Android package / iOS bundle ID: `am.htours.harabia`
